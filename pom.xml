@@ -4,15 +4,7 @@
   <artifactId>TINKO</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>/var/jenkins_home/workspace/TINKO</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>/var/jenkins_home/workspace/TINKO</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
+    <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
